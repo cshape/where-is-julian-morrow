@@ -15,17 +15,15 @@ Using Inworld AI's character engine, we'll create a conversational game that pla
 
 1. Create Julian Morrow in your Inworld AI account, making sure to give him a [Goal](https://docs.inworld.ai/docs/tutorial-basics/goals/#goals-20) where he will reveal his address.
 
-2. Setup the Google Project and retrieve service account key
+2. Set up the Google Project and retrieve the service account key
 
-    a. [Install and initialize the Cloud SDK](https://cloud.google.com/sdk/docs/)
+    a. Set up a new GCP Project
 
-    b. Setup a new GCP Project
+    b. Enable the Google Speech-To-Text API for that project
 
-    c. Enable the Google Speech-To-Text API for that project
+    c. Create a service account.
 
-    d. Create a service account.
-
-    e. Download a private key as JSON.
+    d. Download a private key as JSON.
 
 3.  Modify the `.env.sample` file to include the path to your JSON service account key and save it as a `.env` file
 4.  Add the Twilio authorization credentials as `ACCOUNT_SID` and `AUTH_TOKEN` values to the .env file
