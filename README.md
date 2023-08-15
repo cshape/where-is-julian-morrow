@@ -1,4 +1,4 @@
-# Where is Julian Morrow - A Conversational Mystery powered by Inworld AI, Twilio, and Google SST
+# Where is Julian Morrow - A Conversational Mystery powered by Inworld AI, Twilio, and Google STT
 
 Using Inworld AI's character engine, we'll create a conversational game that players can access by making a phone call. Role playing as Richard Papen from [The Secret History](https://www.goodreads.com/en/book/show/29044), the player will call Julian Morrow, their estranged ex-professor. The goal is to get Julian to reveal his address, but Julian won't divulge his location unless he trust you...
 
