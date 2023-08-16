@@ -19,14 +19,14 @@ Using Inworld AI's character engine, we'll create a conversational game that pla
     b. Enable the Google Speech-To-Text API for that project
     c. Create a service account.
     d. Download a private key as JSON.
-3.  Modify the `.env.sample` file to include the path to your JSON service account key and save it as a `.env` file
-4.  Add the Twilio authorization credentials as `ACCOUNT_SID` and `AUTH_TOKEN` values to the .env file
-5.  Add the [Inworld API key](https://docs.inworld.ai/docs/tutorial-api/getting-started/#authorization-signature) as `INWORLD_KEY` to the .env file
-6.  Update the `sceneData` variable in the `index.js` file to point to your own scene
-7.  Update the `workspaceName` variable in the `index.js` file to point to your own workspace
-8.  Update the `data` attribute in the `sendTrigger` function to point to your trigger
-9.  Install the dependencies with `$ npm install`
-10.  Start ngrok with `$ ngrok http 8080`
-11. Buy a phone number in Twilio and set its [Voice Webhook](https://www.twilio.com/docs/usage/webhooks/getting-started-twilio-webhooks) to the URL provided by ngrok
-12. Start the server with `$ npm start`
-13. Call the number and try to convince Julian to give up his address!
+4.  Modify the `.env.sample` file to include the path to your JSON service account key and save it as a `.env` file
+5.  Add the Twilio authorization credentials as `ACCOUNT_SID` and `AUTH_TOKEN` values to the .env file
+6.  Add the [Inworld API key](https://docs.inworld.ai/docs/tutorial-api/getting-started/#authorization-signature) as `INWORLD_KEY` to the .env file
+7.  Update the `sceneData` variable in the `index.js` file to point to your own scene
+8.  Update the `workspaceName` variable in the `index.js` file to point to your own workspace
+9.  Update the `data` attribute in the `sendTrigger` function to point to your trigger
+10.  Install the dependencies with `$ npm install`
+11.  Start ngrok with `$ ngrok http 8080`
+12. Buy a phone number in Twilio and set its [Voice Webhook](https://www.twilio.com/docs/usage/webhooks/getting-started-twilio-webhooks) to the URL provided by ngrok
+13. Start the server with `$ npm start`
+14. Call the number and try to convince Julian to give up his address!
